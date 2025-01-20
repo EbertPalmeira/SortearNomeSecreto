@@ -1,0 +1,55 @@
+*{
+  margin:0
+}
+.col{
+  background-color: 	#4169E1;
+
+}
+.container{
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  padding-top: 100px;
+  align-items: center;
+}
+.container h1{
+  color: #fff;
+}
+
+.sorteio{
+  padding-top: 50px;
+  display: grid;
+  justify-content: center;
+}
+.sorteio h1{
+  color: #4169E1;
+  padding-bottom: 15px;
+}
+.nomes{
+  padding-bottom: 50px;
+}
+.nomes input,button{
+  padding:10px 30px;
+  cursor: pointer;
+}
+.enviar{
+  display: grid;
+  justify-content: center;
+}
+.enviar ul{
+  padding-bottom: 15px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adiciona espaço entre os itens */
+}
+.enviar button{
+  padding: 20px 50px;
+  background-color: orange;
+  color: #fff;
+  border: orange;
+  cursor: pointer;
+}
+.enviar{
+  padding-bottom: 150px;
+}
